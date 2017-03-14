@@ -1,0 +1,41 @@
+body {
+    background-color: lightsteelblue;
+}
+
+p {
+    font-family: verdana;
+}
+
+img {
+    border:5px solid #0000ff;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: #0000ff;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
