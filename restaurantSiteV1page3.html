@@ -2,36 +2,74 @@
 <html>
 <head>
 	<title>Contact Us</title>
+    
+    <link href="restaurantStyles.css"
+          rel="stylesheet"
+          type="text/css"/>
+<style>
+    table.one {
+        padding: 10px;
+    }
+        
+    table.two {
+        padding: 10px;
+        width: 100%;
+        
+        
+    }
+    
+    td.one {
+        padding: 10px;
+    }
+    
+    td.two {
+        text-align: right;
+        width: 40%;
+        vertical-align: top;
+        padding: 10px;
+    }
+    
+    td.three {
+        width: 43%;
+        text-align: right;
+    }
+    
+    td.four {
+        text-align: right;
+    }
+</style>
 </head>
 
 <body>
-	<h1 align="center">Happy Grillmore</h1>
-	<hr/>
-	<table cellpadding="10">
+    <div class="headerfooter">
+	   <h1>Happy Grillmore</h1>
+    </div>
+    <hr/>
+	<table class="one">
 		<tr>
-			<td><a href="restaurantSiteV1page1.html">Home</a></td>
-			<td><a href="restaurantSiteV1page2.html">Menu</a></td>
-			<td><a href="restaurantSiteV1page3.html">Contact Us</a></td>
+			<td class="one"><a href="restaurantSiteV1page1.html">Home</a></td>
+			<td class="one"><a href="restaurantSiteV1page2.html">Menu</a></td>
+			<td class="one"><a href="restaurantSiteV1page3.html">Contact Us</a></td>
 		</tr>
 	</table>
 	<hr/>
 	</br>
 	<form action="fakecontactuspage.com" method="POST">
-		<table cellpadding="10px" width="100%">
+		<table class="two">
 			<tr>
-                <td align="right" width="40%">Name:</td>
-				<td width="17%"><input type="text" name="name" size="32px"></td>
+                <td class="two">Name:</td>
+				<td><input type="text" name="name" size="32px"></td>
 			</tr>
 			<tr>
-				<td align="right">Email:</td>
+				<td class="two">Email:</td>
 				<td><input type="text" name="email" size="32px"></td>
 			</tr>
 			<tr>
-				<td align="right">Phone:</td>
+				<td class="two">Phone:</td>
 				<td><input type="text" name="phone" size="32px"></td>
 			</tr>
 			<tr>
-				<td align="right">Reason For Inquiry:</td>
+				<td class="two">Reason For Inquiry:</td>
 				<td><select name="reason">
                         <option value="catering">Catering</option>
                         <option value="privateParty">Private Party&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
@@ -41,21 +79,21 @@
                 </td>
             </tr>
             <tr>
-                <td align="right" valign="top">Additional Information:</td>
+                <td class="two">Additional Information:</td>
                 <td><textarea name="additionalInformation" rows="8" cols="30"></textarea></td>
             </tr>
             <tr>
-                <td align="right">Have you been to the restaurant?</td>
+                <td class="two">Have you been to the restaurant?</td>
                 <td><input type="radio" name="answer" value="no" checked/>No&nbsp&nbsp<input type="radio" name="answer" value="yes">Yes </td>
             </tr>
             <tr>
-                <td align="right">Best days to contact you:</td>
+                <td class="two">Best days to contact you:</td>
                 <td><input type="checkbox" name="bestDay" value="M">M<input type="checkbox" name="bestDay" value="T">T<input type="checkbox" name="bestDay" value="W">W<input type="checkbox" name="bestDay" value="TH">TH<input type="checkbox" name="bestDay" value="F">F</td>
             </tr>
             <tr>
-                <td></td>
-                <td align="right"><input type="submit" value="Send Request"></td>
-                <td width="43%"></td>
+                <td class="two"></td>
+                <td class="four"><input type="submit" value="Send Request"></td>
+                <td class="three"></td>
             </tr>
 
 			
@@ -64,8 +102,11 @@
     </form>	
     </br>
     <hr/>
-    <center><h2>3503 Short Street, Austin, TX, 78701</h2></center>
-    <center><h2>512-886-0689</h2></center></br>
+    <div class="headerfooter">
+        <h2>3503 Short Street, Austin, TX, 78701</h2>
+        <h2>512-886-0689</h2>
+    </div>
+    </br>
 
 
 
