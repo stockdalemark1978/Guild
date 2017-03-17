@@ -13,3 +13,29 @@ h2 {
 div.headerfooter {
     background-color: lightsalmon;
 }
+
+table.one {
+    padding: 10px;
+}
+
+table.three tr td {
+    padding: 10px;
+    text-align: center;
+   
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active {
+    text-decoration: none;
+}
