@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent Marker');
+
 h1 {
     text-align: center;
+    font-family: Permanent Marker;
 }
 
 h2 {
     text-align: center;
+    font-size: x-large;
 }
 
 div.headerfooter {
