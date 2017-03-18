@@ -1,6 +1,13 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
 	<title>Home Page</title>
     
     <link href="restaurantStyles.css"
@@ -20,10 +27,21 @@
         margin-left: auto;
         border-collapse: collapse;
         border: 1px solid black;
+        
     }
     
     td {
         padding: 10px;
+    }
+    
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+    .col-md-4 { 
+    border: 1px solid;
+    
     }
 </style>
 </head>
@@ -33,24 +51,43 @@
 	   <h1>Happy Grillmore</h1>
     </div>
     <hr/>
-	<table class="one">
-		<tr>
-			<td><a href="restaurantSiteV2page1.html">Home</a></td>
-			<td><a href="restaurantSiteV2page2.html">Menu</a></td>
-			<td><a href="restaurantSiteV2page3.html">Contact Us</a></td>
-		</tr>
-	</table>
+    <div class="container-fluid">
+        <ul class="nav nav-pills">
+            <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></a></li>
+            <li><a href="restaurantSiteV2page2.html">Menu</a></li>
+            <li><a href="restaurantSiteV2page3.html">Contact Us</a></li>
+        </ul>
+    </div>
+    </br>
 	<hr style="margin: 0px;"/>
     <div style="background-color: #b3cccc;">
 	</br>
-	<img src="http://everydayfoodie.files.wordpress.com/2009/04/bisonsliders011.jpg" atl="Burger & Fries" width="400" height="150" style="display: block; margin: auto;"></td>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1>Check Us Out!</h1>
+            <p>Come on out and check out our new location on Main St.!</p>
+        </div>    
+    </div>
+    <div class="container-fluid">
+        
+        <img src="http://everydayfoodie.files.wordpress.com/2009/04/bisonsliders011.jpg" atl="Burger & Fries" width="400" height="150" style="display: block; margin: auto;"></td>
 	
 	</br>
 	</br>
-	<table class="two">
+	<div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
         <td><p>Welcome to Happy Grillmore! Founded in 1976, we've been a staple on the Austin food scene because of our famous burgers. Happy Grillmore got it's start when John Smith moved to Austin from Northern Rhode Island to attend school at the University of Texas. After being bored for a year in the biology program, John decided to drop out of school (much to his parent dismay) and follow his dream: to create one of the most amazing burgers on the planet!</p><p>After 40 years on Short St. in downton Austin, we invite you to come on down and enjoy some of our fantastic food choices. We are known for our burgers and fries, but we've many other delicious dishes as well!</p></td>
-	</table>
+            </div>    
+        </div>
+            
+    
+    </div>
+	
 	</br>
+        
+    </div>
+	
     </div>
 	<hr style="margin: 0px;"/>
     <div class="headerfooter">
