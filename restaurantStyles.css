@@ -12,6 +12,7 @@ h2 {
 
 div.headerfooter {
     background-color: lightsalmon;
+    margin: 0px;
 }
 
 table.one {
@@ -23,6 +24,7 @@ table.three tr td {
     text-align: center;
    
 }
+
 
 a:link {
     color: blue;
