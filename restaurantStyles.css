@@ -25,7 +25,9 @@ table.three tr td {
    
 }
 
-
+.carousel-caption{
+    position:static;
+}
 a:link {
     color: blue;
 }
